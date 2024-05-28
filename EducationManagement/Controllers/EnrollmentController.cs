@@ -21,7 +21,7 @@ namespace EducationManagement.Controllers
 
         [CustomAuthorize("Student")]
         [HttpPost("EnrollLesson")]
-        [Description("Tanımlı Ders Dönemleri Id bilgileri : <b>1</b> veya <b>2</b>")]
+        [Description("Tanımlı Ders Dönemleri Id bilgileri: <b>1</b> veya <b>2</b>")]
         public IActionResult EnrollToLesson([FromBody] EnrollmentModel model)
         {
             return _enrollmentService.AddEnrollment(model);
