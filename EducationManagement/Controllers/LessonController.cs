@@ -12,7 +12,7 @@ namespace EducationManagement.Controllers
     [ApiController]
     public class LessonController : ControllerBase
     {
-        private ILessonService _lessonService;
+        private ILessonService _lessonService; //şimdi gönder
         public LessonController(ILessonService lessonService)
         {
             _lessonService = lessonService;
