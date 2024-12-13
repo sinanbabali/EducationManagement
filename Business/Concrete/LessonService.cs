@@ -21,7 +21,7 @@ namespace Business.Concrete
         }
 
         public LessonService(EduContext context) : base(context)
-        {
+        {//stage'den gönder
 
         }
 
